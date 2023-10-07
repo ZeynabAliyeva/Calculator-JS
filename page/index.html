@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <section class="container-parent">
+        <div class="container-child">
+            <div class="calculator" data-previous-key-type="reset">
+				<div class="display">
+					<div class="calculator-display">
+						<output class="user-input" id="user-input"></output>	
+						<output class="result" id="result"></output>	
+					</div>					
+				</div>
+				<div class="all-buttons">
+					<button class="grey-btn" data-type="reset" id="clear">AC</button>
+					<button class="grey-btn" data-type="backspace" id="plusminus">+/-</button>
+					<button class="grey-btn" data-type="percent" id="percent" value="%">%</button>
+					<button class="orange-btn" data-operator id="divide" value="/">÷</button>
+					<button class="digits" data-number id="digit-7" value="7">7</button>
+					<button class="digits" data-number id="digit-8" value="8">8</button>
+					<button class="digits" data-number id="digit-9" value="9">9</button>
+					<button class="orange-btn" data-operator id="plus" value="+">+</button>
+					<button class="digits" data-number id="digit-4" value="4">4</button>
+					<button class="digits" data-number id="digit-5" value="5">5</button>
+					<button class="digits" data-number id="digit-6" value="6">6</button>
+					<button class="orange-btn" data-operator id="minus" value="-">-</button>
+					<button class="digits" data-number id="digit-1" value="1">1</button>
+					<button class="digits" data-number id="digit-2" value="2">2</button>
+					<button class="digits" data-number id="digit-3" value="3">3</button>
+					<button class="orange-btn" data-operator id="multiply" value="x">x</button>
+					<button class="big-button digits" data-number id="digit-0" value="0">0</button>
+					<button class="decimal digits" data-number id="decimal" value=".">.</button>
+					<button class="equals orange-btn" data-type="equal" id="equals" value="=">=</button>
+				</div>
+				<img  class="rectangle" src="../icon/rectangle.png" alt="#">
+			</div>
+        </div>
+    </section>
+</body>
+</html>
